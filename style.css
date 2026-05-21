@@ -1,0 +1,52 @@
+h1{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container
+{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 12px;
+}
+
+.box
+{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    border:1px solid #ccc;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #333;
+}
+.colored{
+    color: rgb(8, 7, 7);
+}
+
+.form-area
+{
+    display: flex;
+    gap: 8px;
+}
+
+.form-area input
+{
+    padding: 8px 12px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 180px;
+}
+.form-area button {
+    padding: 8px 20px;
+    font-size: 0.95rem;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    cursor: pointer;
+        }
+.form-area button:hover {
+    background-color: #ccc;
+}

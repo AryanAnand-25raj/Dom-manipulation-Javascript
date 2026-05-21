@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-MANIPULATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="greeting"> Hello </h1>
+    <div class="container">
+        <div class="box" id="box-red" onclick="changecolor('box-red','red')">Red</div>
+        <div class="box" id="box-blue" onclick="changecolor('box-blue','blue')">Blue</div>
+        <div class="box" id="box-green"onclick="changecolor('box-green','green')">Green</div>
+        <div class="box" id="box-yellow"onclick="changecolor('box-yellow','yellow')">Yellow</div>
+    </div>
+
+
+    <div class="form-area">
+            <input type="text" id="nameInput" placeholder="Enter Your Name ">
+            <button onclick="greetUser()">Greet</button>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
